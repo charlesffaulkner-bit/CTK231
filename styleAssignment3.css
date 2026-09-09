@@ -1,0 +1,25 @@
+a {
+  color: #ff0000;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #11ff00;
+}
+
+a:hover {
+  color: #fff200;
+}    
+
+.headerbg {
+  background-color: red;
+  color: white
+}
+
+.paragraph {
+  background-color: black;
+  color: white
+}
