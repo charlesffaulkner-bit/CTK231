@@ -1,0 +1,52 @@
+body {
+    background-color: #999999;
+    background-image: url(red.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgbox {
+  max-width: 1000px;
+  max-height: 500px;
+  border: 15px solid black;
+  padding:5px;
+  background-color: yellow;
+}
+
+.centerme {
+  text-align: center;
+}
+
+.just {
+text-align: justify;
+}
+
+a {
+  color: #ff0000;
+}
+
+a:link {
+  color: #ff0000;
+}
+
+a:visited {
+  color: #11ff00;
+}
+
+a:hover {
+  color: #fff200;
+}    
+
+.headerbg {
+  background-color: orange;
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.paragraph {
+  background-color: black;
+  color: white
+}
