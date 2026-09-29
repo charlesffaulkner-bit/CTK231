@@ -1,0 +1,113 @@
+body {
+background-image: url("a62.png")
+}
+
+#wrapper {
+    background-color: white;
+    border: 3px solid black;
+    width: 1200px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 100px auto 75px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: black;
+    padding: 20px;
+    grid-column: span 5;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0px;
+    text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px;
+  grid-column: span 1;
+  
+}
+
+nav li {
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: red;
+    display: block;
+    text-decoration: none;
+    grid-column: span 1;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    grid-column: span 1;
+}
+
+nav li a:hover {
+    background-color: darkred;
+}
+
+main p a{
+    color: red;
+    text-decoration: none;
+}
+
+main p a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    grid-column: span 4;
+    margin-right: 20px;
+}
+
+main p { 
+    text-align: justify;
+}
+
+.boldp {
+    font-weight: bold;
+}
+
+.floatimg {
+    float: left;
+    margin-right: 24px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: red;
+    border-top: 3px solid black;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    grid-column: span 5;
+    padding: 0;
+    margin: 0;
+}
